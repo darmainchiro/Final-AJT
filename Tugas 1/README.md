@@ -32,3 +32,45 @@ Instalasi AWS EC2
 
 ![ss detail2](./ss4.png)
 
+Instalasi Mininet, Ryu, dan Flow Manager
+
+1. Sebelum memulai instalasi sebaiknya perlu untuk mengupdate dan upgrade package yang ada pada server.
+
+```
+sudo apt -yy update && sudo apt -yy upgrade
+```
+![ss update](./ss8.png)
+
+2. Unduh repositori Mininet
+
+```
+git clone https://github.com/mininet/mininet
+cd mininet
+git checkout -b mininet-2.3.0 2.3.0 # or whatever version you wish to install
+cd ..
+```
+3. Instal mininet
+
+```
+mininet/util/install.sh -nfv
+```
+Instalasi untuk mininet, user switch dan OpenFlow
+4. Unduh Repositori Ryu dan Install Ryu
+
+```
+git clone git://github.com/osrg/ryu.git
+cd ryu; pip install .
+cd
+```
+5. Unduh Repositori Flowmanager
+
+```
+git clone https://github.com/martimy/flowmanager
+cd
+```
+
+6. Setelah langkah instalasi Flowmanager, sebaiknya lakukan rebooting Linux anda untuk membuat lingkungan operasional Python, Mininet, Ryu dan OpenFlow dapat berjalan dengan baik.
+
+7. Mencoba menggunakan mininet
+
+![ss mn](./ss10.png)
