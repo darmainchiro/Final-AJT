@@ -25,7 +25,7 @@ Instalasi AWS EC2
 
 ![ss sec](./ss5.png)
 
-8. Terakhir pada halaman Review and Launch, pilih tombol Launch.
+8. Terakhir pada halaman Review and Launch, pilih tombol Launch. Kemudian akan muncul kotak dialog key pair. Pilih key pair: vockey dan Launch Instances.
 9. Instance telah berhasil dibuat.
 
 ![ss detail](./ss3.png)
