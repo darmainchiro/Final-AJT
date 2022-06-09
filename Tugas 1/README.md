@@ -3,7 +3,7 @@ Tugas 1
 Instalasi AWS EC2
 
 1. Buat Instance pada halaman EC2
-2. Pilih OS yang akan di install (Ubuntu Server 20.04 LTS).
+2. Pilih OS yang akan di install (Ubuntu Server 22.04 LTS).
 
 ![ss os](./ss-3.png)
 
