@@ -2,7 +2,7 @@ Tugas 2
 
 - Topology Mininet 2 Host dan 2 Switch
 
-![ss update](./ss-top1.png)
+![ss update](./ss-top2.png)
 
 1. Jalankan mininet tanpa controller menggunakan custom topo yang sudah dibuat.
 
@@ -17,7 +17,7 @@ sudo mn --controller=none --custom custom_topo_2sw2h.py --topo mytopo --mac --ar
 
 -  Topology Mininet 3 Switch (loop) dengan 6 Host dengan Penerapan STP (spanning tree protocol)
 
-![ss update](./ss-top2.png)
+![ss update](./ss-top1.png)
 
 1. Jalankan program Ryu STP yang berada pada folder ryu.
 
